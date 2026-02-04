@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine's Day</title>
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    abc html
+<body class="bg-pink-50 text-gray-800 font-sans">
+
+    <!-- Header -->
+    <header class="bg-pink-500 text-white p-6 text-center shadow-md">
+        <h1 class="text-4xl font-bold">Happy Valentine's Day!</h1>
+        <p class="mt-2 text-lg">Sending love and happiness your way ❤️</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="flex flex-col md:flex-row items-center justify-center my-10 mx-4 md:mx-20">
+        <div class="md:w-1/2 text-center md:text-left">
+            <h2 class="text-3xl font-semibold mb-4">Spread the Love</h2>
+            <p class="mb-6">Valentine’s Day is the perfect time to show someone special how much you care. Share your
+                love with cute messages and surprises!</p>
+            <button class="bg-red-500 text-white px-6 py-2 rounded-lg shadow hover:bg-red-600 transition">Send Love
+                ❤️</button>
+        </div>
+        <div class="md:w-1/2 mt-6 md:mt-0 flex justify-center">
+            <img src="https://images.unsplash.com/photo-1519682577862-22b62b24e493?auto=format&fit=crop&w=400&q=80"
+                alt="Valentine" class="rounded-xl shadow-lg">
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="my-10 mx-4 md:mx-20">
+        <h2 class="text-3xl font-semibold text-center mb-6">Valentine’s Gallery</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <img src="https://images.unsplash.com/photo-1605228455930-d4f1d987d1c3?auto=format&fit=crop&w=400&q=80"
+                alt="Love" class="rounded-lg shadow hover:scale-105 transform transition">
+            <img src="https://images.unsplash.com/photo-1514894789281-6e6ecf6c5c43?auto=format&fit=crop&w=400&q=80"
+                alt="Heart" class="rounded-lg shadow hover:scale-105 transform transition">
+            <img src="https://images.unsplash.com/photo-1529429618532-03e0f7e7d6ff?auto=format&fit=crop&w=400&q=80"
+                alt="Flowers" class="rounded-lg shadow hover:scale-105 transform transition">
+            <img src="https://images.unsplash.com/photo-1553456558-aff63285bdd2?auto=format&fit=crop&w=400&q=80"
+                alt="Gift" class="rounded-lg shadow hover:scale-105 transform transition">
+            <img src="https://images.unsplash.com/photo-1505253215333-10e611bcd9f7?auto=format&fit=crop&w=400&q=80"
+                alt="Heart Balloons" class="rounded-lg shadow hover:scale-105 transform transition">
+            <img src="https://images.unsplash.com/photo-1531456881461-11d74a333a7b?auto=format&fit=crop&w=400&q=80"
+                alt="Roses" class="rounded-lg shadow hover:scale-105 transform transition">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-pink-500 text-white p-6 text-center mt-10 shadow-inner">
+        <p>&copy; 2026 Spread the Love ❤️</p>
+    </footer>
+
 </body>
 </html>
